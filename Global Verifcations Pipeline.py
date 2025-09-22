@@ -11,11 +11,9 @@ import re
 from io import StringIO
 import json
 import numpy as np
-
-# ------------------ Loading Calls Data ------------------
-import pandas as pd
 from sqlalchemy import create_engine
 
+# ------------------ Loading Data ------------------
 # ------------------ Nexus DB Connection Details ------------------
 nexus_user = "xxxxxx"
 nexus_pwd = "xxxxxx"
